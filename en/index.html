@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GOLOS.io - Decentralized Social Media Platform</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+<body>
+<!-- Header -->
+<header class="header-bg bg-opacity-90 py-4 sticky top-0 z-50">
+  <div class="max-w-4xl mx-auto px-4 flex justify-between items-center">
+    <a href="/en"><h1 class="text-2xl font-bold text-white">GOLOS.io</h1></a>
+    <div class="flex flex-row gap-4">
+      <nav class="hidden sm:block">
+        <ul class="flex space-x-6">
+          <li><a href="#about" class="text-gray-300 hover:text-white transition">About</a></li>
+          <li><a href="#projects" class="text-gray-300 hover:text-white transition">Projects</a></li>
+          <li><a href="#source" class="text-gray-300 hover:text-white transition">Source Code</a></li>
+        </ul>
+      </nav>
+      <a href="/">RU</a>
+    </div>
+  </div>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero-section px-4 py-20">
+  <div class="max-w-4xl mx-auto">
+    <div class="flex flex-col sm:flex-row items-center gap-8">
+      <div class="sm:w-4/5">
+        <h2 class="text-5xl font-bold text-white mb-4">Welcome</h2>
+        <p class="text-xl text-gray-200 mb-8">
+          The First Decentralized Social Media Platform for the Russian-Speaking Community</p>
+        <a href="#about"
+           class="inline-block bg-[#007bff] text-white py-3 px-6 rounded-full hover:bg-[#53A2FD] transition">
+          Learn More
+        </a>
+      </div>
+      <div>
+        <img src="images/banner-img.svg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about">
+  <div class="max-w-4xl mx-auto px-4 py-16">
+    <div class="flex flex-col sm:flex-row items-center gap-8">
+      <div>
+        <img src="images/about-img.svg" alt="">
+      </div>
+      <div>
+        <h2 class="text-4xl font-bold text-white mb-8">About us</h2>
+        <div class="max-w-3xl mx-auto text-white">
+          <p class="mb-4">Golos.io was launched on October 18, 2016, as the first decentralized, blockchain-based social
+            media platform designed specifically for the Russian-speaking community. Built as a fork of the Steem
+            blockchain, it leveraged the Graphene 2.0 codebase and operated on a Delegated Proof-of-Stake (DPoS)
+            consensus
+            mechanism.</p>
+          <p>In 2019, Golos.io migrated to the CyberWay blockchain, enhancing performance and scalability to better
+            serve
+            its growing user base.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Related Projects Section -->
+<section id="projects" class="py-16 bg-[#0000007F]">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="text-4xl font-bold text-white mb-8">Inspired Projects</h2>
+    <p class="mb-8">Golos.io also inspired the development of several other decentralized social media projects,
+      including</p>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+      <a
+        class="flex flex-row items-start gap-4 bg-[#007BFF76] hover:bg-[#007BFFAD] transition-all p-6 rounded-lg shadow-lg"
+        href="https://ui.savva.app/new" target="_blank">
+        <img src="images/pr-icon-4-2.svg" alt="">
+        <div>
+          <h3 class="text-2xl font-semibold text-white mb-2">Savva.app</h3>
+          <p class="text-white">A decentralized social media project inspired by Golos.io, bringing innovative
+            community-driven features.</p>
+        </div>
+      </a>
+      <a
+        class="flex flex-row items-start gap-4 bg-[#007BFF76] hover:bg-[#007BFFAD] transition-all p-6 rounded-lg shadow-lg"
+        href="https://golos.id/" target="_blank">
+        <img src="images/pr-icon-3-2.svg" alt="">
+        <div>
+          <h3 class="text-2xl font-semibold text-white mb-2">Golos.id</h3>
+          <p class="text-white">Another platform influenced by Golos.io, focusing on decentralized content creation and
+            sharing.</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Source Code Section -->
+<section id="source" class="py-16">
+  <div class="max-w-4xl mx-auto px-4">
+    <h2 class="text-4xl font-bold text-white mb-8">Open Source Code</h2>
+    <div class="mx-auto">
+      <p class="text-white mb-4">The project’s source code is available to the community on GitHub</p>
+      <div class="flex flex-col sm:flex-row gap-6 w-full">
+        <div class="flex flex-row items-center gap-4 bg-[#0000007F] transition-all p-4 rounded-lg shadow-lg">
+          <div class="w-[50px]">
+            <img src="images/cyberway.png" alt="" />
+          </div>
+          <div class="flex flex-col gap-[2px]">
+            <a href="http://cyberway.io/" target="_blank" class="text-white hover:underline">CyberWay Blockchain</a>
+            <a href="https://github.com/cyberway" target="_blank" class="text-white hover:underline">GitHub</a>
+          </div>
+        </div>
+        <div class="flex flex-row items-center gap-4 bg-[#0000007F] transition-all p-4 rounded-lg shadow-lg">
+          <div class="w-[50px]">
+            <img src="images/golos.png" alt="" />
+          </div>
+          <div class="flex flex-col gap-[2px]">
+            <a href="http://golos.io/" target="_blank" class="text-white hover:underline">Golos.io Front-End</a>
+            <a href="https://github.com/GolosChain/golos.io" target="_blank"
+               class="text-white hover:underline">GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gray-900 py-6">
+  <div class="max-w-4xl mx-auto px-4">
+    <p class="text-white">&copy; 2016 Golos.io | All rights reserved</p>
+  </div>
+</footer>
+
+<script>
+  // Smooth scrolling for navigation links
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href')).scrollIntoView({
+        behavior: 'smooth'
+      });
+    });
+  });
+</script>
+</body>
+</html>

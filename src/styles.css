@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+html {
+    background: #16213e;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #007bff 0%, #16213e 100%);
+    color: #e0e0e0;
+}
+
+.header-bg {
+    background: linear-gradient(135deg, #007bff 0%, #16213e 100%);
+    color: #e0e0e0;
+}
+
+.hero-section {
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.5);
+}
